@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | LD48</title>
+    <title>Unity WebGL Player | LD49</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -22,19 +22,19 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">LD48</div>
+        <div id="unity-build-title">LD49</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/LD48.loader.js";
+      var loaderUrl = buildUrl + "/LD49Web.loader.js";
       var config = {
-        dataUrl: buildUrl + "/LD48.data.unityweb",
-        frameworkUrl: buildUrl + "/LD48.framework.js.unityweb",
-        codeUrl: buildUrl + "/LD48.wasm.unityweb",
+        dataUrl: buildUrl + "/LD49Web.data",
+        frameworkUrl: buildUrl + "/LD49Web.framework.js",
+        codeUrl: buildUrl + "/LD49Web.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "LD48",
+        productName: "LD49",
         productVersion: "0.1",
       };
 
@@ -53,7 +53,7 @@
           mobileWarning.style.display = "none";
         }, 5000);
       } else {
-        canvas.style.width = "576px";
+        canvas.style.width = "1024px";
         canvas.style.height = "1024px";
       }
       loadingBar.style.display = "block";
